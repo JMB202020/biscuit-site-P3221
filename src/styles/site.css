@@ -21,3 +21,9 @@ html { scroll-behavior: smooth; }
 body { font-family: var(--font-body); color: var(--color-ink); background-color: var(--color-brand-bg); font-size: 1rem; line-height: 1.7; }
 h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); }
 img { max-width: 100%; display: block; }
+
+h1 { font-size: clamp(2rem, 5vw, 3.25rem); line-height: 1.15; font-weight: 800; }
+h2 { font-size: clamp(1.4rem, 3vw, 2rem); line-height: 1.25; font-weight: 800; }
+h3 { font-size: clamp(1.05rem, 2vw, 1.3rem); line-height: 1.35; font-weight: 700; }
+p { margin-bottom: 1rem; }
+a { transition: color 0.2s, opacity 0.2s; }
